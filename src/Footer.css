@@ -1,0 +1,21 @@
+.footer {
+   background-color: #232F3E;
+   width: 100%;
+   color: lightgray;
+   height: 80px;
+    display: flex;
+ align-items: center;
+   text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+
+.footer__logo {
+    width: 100px;
+    object-fit: contain;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+}
